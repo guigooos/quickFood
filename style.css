@@ -105,6 +105,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 7rem;
+    margin: 200px 0;
 }
 .inf .content{
     width: 400px;
@@ -161,4 +162,62 @@ nav{
     font-size: 18px;
     font-family: 'gilroy';
     color: #999;
+}
+.subscribe{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 140px;
+    h1{
+        margin-top: 80px;
+        font-size: 48px;
+        text-align: center;
+        font-family: 'gilroy';
+        color: #000001;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'gilroy';
+        color: #999; 
+        margin-bottom: 40px;
+    }
+    div{
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        width: 700px;
+        background-color: transparent;
+        border: 1.5px solid #000001;
+        padding: 16px 32px;
+        border-radius: 10px;
+        color: #000001;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.5s;
+        a{
+            padding: 8px 32px;
+            background-color: #00A000;
+            color: #fff;
+            font-family: 'Gilroy';
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        input{
+            text-decoration:none;
+            border: none;
+        }
+    }
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00A000;
+    padding: 100px;
+    color: #fff;
+    font-family: 'Gilroy';
+    .sec{
+
+    }
 }
